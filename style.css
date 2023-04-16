@@ -1,0 +1,109 @@
+.header{
+    background: #3498db;
+    height: 77px;
+    margin-top: 0;
+}
+.header-logo img{
+    width: 200px;
+    padding: 0;
+    margin: 0;;
+
+}
+.primary-menu{
+    text-align: center;
+}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display:inline-block;
+    margin-left: -4px;
+    
+}
+.primary-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 77px ;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+.primary-menu ul li a :hover{
+    background: #2a8acb;
+    
+}
+
+/* banner */
+
+.banner{
+    background: url(./img/slider.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* about */
+
+.about{
+    background: #cdc3c3;
+}
+
+/* service */
+
+.service{
+    background: #d4cece;
+}
+
+/* product */
+
+.product img{
+    width: 293px;
+    height: 223px;
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background: #ece5e5;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.card span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+ 
+/* footer section */
+.footer{
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+}
+.footer p{
+    margin-bottom: 0;
+}
+
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
